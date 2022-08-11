@@ -38,18 +38,15 @@ public class Test : MonoBehaviour
         // Bossクラスの変数を宣言してインスタンスを代入
         Boss lastboss = new Boss();
 
-        // MAGIC用の関数を呼び出す
-        lastboss.MAGICK();
-        lastboss.MAGICK();
-        lastboss.MAGICK();
-        lastboss.MAGICK();
-        lastboss.MAGICK();
-        lastboss.MAGICK();
-        lastboss.MAGICK();
-        lastboss.MAGICK();
-        lastboss.MAGICK();
-        lastboss.MAGICK();
-        lastboss.MAGICK();
+        
+       
+        // 10回処理を繰り返す
+        for (int i = 0; i <= 10; i++)
+        {
+            // MAGIC用の関数を呼び出す
+            lastboss.MAGICK();
+     
+        }
 
     }
 
